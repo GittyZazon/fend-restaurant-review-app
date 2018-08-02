@@ -1,4 +1,4 @@
-const staticCacheName = 'restaurant-review-v2';
+const staticCacheName = 'restaurant-review-v3';
 
 self.addEventListener('install', function(event) { 
 	event.waitUntil(
@@ -21,7 +21,7 @@ self.addEventListener('install', function(event) {
 				'data/restaurants.json',
 				'css/styles.css',
 				'index.html',
-				'restaurants.html',
+				'restaurant.html',
 				'sw.js',
 				'register.js',
 				'https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js',
